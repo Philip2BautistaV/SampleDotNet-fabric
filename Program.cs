@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "DataPlatform Deployment in Development");
+app.MapGet("/", () => "DataPlatform Deployment in Development!");
 
 app.Run();
